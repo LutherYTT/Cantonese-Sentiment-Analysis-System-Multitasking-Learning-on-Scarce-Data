@@ -88,8 +88,14 @@ To ensure high-quality input data for the model, the following meticulous prepro
   - Accuracy: 0.933
   - Macro F1 Score: 0.923
   - Weighted F11: 0.932
-- **Regression Tasks** (Mean Squared Error, MSE):
-  | **Regression** | **MSE** | **MAE** | **R2** | **Pearson r** | **Spearman rho** |
+- **Classification Task**:
+  | **.** | **Precision** | **Recall** | **F1** |
+  | -- | -- | -- | -- |
+  | Positive | 0.934 | 0.934 | 0.934 |
+  | Negative | 0.937 | 0.965 | 0.951 |
+  | Neutral | 0.919 | 0.855 | 0.886 |
+- **Regression Tasks**:
+  | **.** | **MSE** | **MAE** | **R2** | **Pearson r** | **Spearman rho** |
   |--|--|--|--|--|--|
   | Rating | 0.132 | 0.258 | 0.864 | 0.932 | 0.911 |
   | Delight | 0.192 | 0.181 | 0.809 | 0.903 | 0.691 |
