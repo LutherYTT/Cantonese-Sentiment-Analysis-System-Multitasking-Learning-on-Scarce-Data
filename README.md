@@ -5,7 +5,7 @@
 This project focuses on sentiment analysis of Cantonese forum text data, performing both sentiment classification (positive, negative, neutral) and regression tasks for sentiment intensity (rating) and four emotional dimensions (delight, anger, sorrow, happiness). Built as a multi-task learning (MTL) framework, it leverages advanced NLP techniques to address the unique challenges of Cantonese text in a resource-constrained environment (~5500 labeled samples). A live demo is available via [Hugging Face Space with Gradio](#).
 
 ## Interactive Demo
-The project provides an interactive demo using [Hugging Face Spaces](https://huggingface.co/spaces/your-space) with Gradio, allowing users to input text and receive sentiment predictions.
+The project provides an interactive demo using [Hugging Face Spaces](https://huggingface.co/spaces/) with Gradio, allowing users to input text and receive sentiment predictions.
 
 ## Task Difficulty and Data Constraints
 
@@ -68,10 +68,7 @@ To ensure high-quality input data for the model, the following meticulous prepro
 ### 2. Knowledge Distillation
 - Used `chinese-roberta-wwm-ext-large (with adversarial training)` as the teacher model to distill a smaller, more efficient `robert-distilled-model`, improving generalization under data scarcity.
 
-### 3. Data Augmentation
-- Experimented with synonym replacement and back-translation techniques to expand the dataset and mitigate the impact of limited data.
-
-### 4. Experiments and Tuning
+### 3. Experiments and Tuning
 - **Loss Function**: Designed a weighted loss combining categorical cross-entropy (classification) and mean squared error (regression), balancing task importance.
 - **Hyperparameter Tuning**: Optimized learning rate, batch size, and regularization via grid search and cross-validation.
 - **Adversarial Training**: Applied to select models to enhance robustness against noisy data and domain-specific challenges.
