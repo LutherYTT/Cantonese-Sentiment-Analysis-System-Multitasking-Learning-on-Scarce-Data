@@ -89,7 +89,7 @@ To ensure high-quality input data for the model, the following meticulous prepro
   - Macro F1 Score: 0.923
   - Weighted F11: 0.932
 - **Regression Tasks** (Mean Squared Error, MSE):
-  - | **Regression** | **MSE** | **MAE** | **R2** | **Pearson r** | **Spearman rho** |
+  | **Regression** | **MSE** | **MAE** | **R2** | **Pearson r** | **Spearman rho** |
   | Rating | 0.132 | 0.258 | 0.864 | 0.932 | 0.911 |
   | Delight | 0.192 | 0.181 | 0.809 | 0.903 | 0.691 |
   | Anger | 0.266 | 0.250 | 0.892 | 0.945 | 0.867 |
