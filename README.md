@@ -174,6 +174,18 @@ Required libraries include:
 
 ---
 
+## Model
+| **Name** | **Link** |
+| -- | -- |
+| SVM with TF-IDF features | [Download Link](https://www.dropbox.com/scl/fi/pw15eiyuki4p8hqmw10n8/svm.zip?rlkey=l94kdbebiavgw69rjfh8xzgnd&st=2x0aej8f&dl=0) |
+| BERT Chinese Base | (https://www.dropbox.com/scl/fi/bpkrw774qkzfafrd7q5rw/bert-chinese-base.zip?rlkey=ds8omm02yi3rxvb55yfa5yf6q&st=mxiwwtob&dl=0) |
+| `chinese-roberta-wwm-ext` | [Download Link](https://www.dropbox.com/scl/fi/hh96z64309z7zbi9vh0tu/chinese-roberta-wwm-ext.zip?rlkey=4izr7gu7jegaygtuhntgpg8ii&st=d17xv0e6&dl=0) |
+| `chinese-roberta-wwm-ext-large` with adversarial training | [Download Link](https://www.dropbox.com/scl/fi/pqn32yemvwsacervuu1yu/chinese-roberta-wwm-ext-with-adversarial-training.zip?rlkey=5of0fzzl7uqb0w6pm1yspbbnp&st=h6z3y95s&dl=0) |
+| `chinese-roberta-wwm-ext-large` with adversarial training | [Download Link](https://www.dropbox.com/scl/fi/pjnvjwo1fgpg5m64sdaz3/chinese-roberta-wwm-ext-large-with-adversarial-training.zip?rlkey=hereaulwui6hbqay40hnu9ji9&st=ljxc5uaz&dl=0) |
+| `robert-distilled-model` | [Download Link](https://www.dropbox.com/scl/fi/pw15eiyuki4p8hqmw10n8/svm.zip?rlkey=l94kdbebiavgw69rjfh8xzgnd&st=kthfutkr&dl=0) |
+
+---
+
 ## Acknowledgments
 - [Hugging Face Transformers](https://huggingface.co/transformers/) for providing pre-trained models.
 - [Gradio](https://gradio.app/) for supporting the interactive demo.
