@@ -4,9 +4,13 @@
 
 This project focuses on sentiment analysis of Cantonese forum text data, performing both sentiment classification (positive, negative, neutral) and regression tasks for sentiment intensity (rating) and four emotional dimensions (delight, anger, sorrow, happiness). Built as a multi-task learning (MTL) framework, it leverages advanced NLP techniques to address the unique challenges of Cantonese text in a resource-constrained environment (~5500 labeled samples). A live demo is available via [Hugging Face Space with Gradio]([#](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis)).
 
+---
+
 ## Interactive Demo
 The project provides an interactive demo using Hugging Face Spaces with Gradio, allowing users to input text and receive sentiment predictions.
 [![Hugging Face Space](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/logo/hugging_face_logo.png)](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis)
+
+---
 
 ## Task Difficulty and Data Constraints
 
@@ -24,6 +28,8 @@ The project provides an interactive demo using Hugging Face Spaces with Gradio, 
 
 ### 4. Annotation Subjectivity
 - Sentiment and emotional intensity annotations are subjective, introducing noise and inconsistency that complicates model training.
+
+---
 
 ## Data Processing
 
@@ -52,6 +58,8 @@ To ensure high-quality input data for the model, the following meticulous prepro
 - Removed duplicates, invalid entries, or non-Cantonese samples.
 - Corrected sentiment label contradictions based on emotional dimension scores (e.g., marking as positive if delight + happiness > anger + sorrow).
 
+---
+
 ## Technical Contributions and Solutions
 
 ### 1. Model Architecture
@@ -74,12 +82,31 @@ To ensure high-quality input data for the model, the following meticulous prepro
 - **Hyperparameter Tuning**: Optimized learning rate, batch size, and regularization via grid search and cross-validation.
 - **Adversarial Training**: Applied to select models to enhance robustness against noisy data and domain-specific challenges.
 
+---
+
 ## Models and Comparisons
 
 ### Comparison Results
 
-#### Sentiment
-[Sentiment Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/sentiment_comparison.png)
+#### Sentiment Classification
+![Sentiment Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/sentiment_comparison.png)
+
+#### Rating Regression
+![Rating Regression Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/rating_regression_comparison.png)
+
+#### Delight Regression
+![Delight Regression Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/delight_regression_comparison.png)
+
+#### Anger Regression
+![Anger Regression Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/anger_regression_comparison.png)
+
+#### Sorrow Regression
+![Sorrow Regression Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/sorrow_regression_comparison.png)
+
+#### Happiness Regression
+![Happiness Regression Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/happiness_regression_comparison.png)
+
+---
 
 ## Evaluation Results
 
@@ -105,6 +132,8 @@ To ensure high-quality input data for the model, the following meticulous prepro
 
 These metrics highlight the Transformer-based model's superiority over traditional methods, despite data constraints.
 
+---
+
 ## Challenges and Solutions
 
 ### 1. Key Challenges
@@ -125,11 +154,15 @@ These metrics highlight the Transformer-based model's superiority over tradition
 - Learned to address domain-specific challenges (Cantonese NLP).
 - Executed a full ML pipeline: data preprocessing, modeling, training, and evaluation.
 
+---
+
 ## Future Directions
 - **Larger Dataset**: Collect more data to explore Cantonese-specific pre-training or fine-tuning.
 - **Back-Translation Augmentation**: Generate additional samples via translation to/from Mandarin/English.
 - **Advanced MTL Architectures**: Experiment with dynamic task weighting or hierarchical models.
 - **Semi-Supervised Learning**: Incorporate unlabeled Cantonese data to boost performance.
+
+---
 
 ## Dependencies
 Required libraries include:
@@ -138,6 +171,8 @@ Required libraries include:
 - `scikit-learn`
 - `gradio`
 - Others listed in `requirements.txt`.
+
+---
 
 ## Acknowledgments
 - [Hugging Face Transformers](https://huggingface.co/transformers/) for providing pre-trained models.
