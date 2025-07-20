@@ -5,7 +5,7 @@
 This project focuses on sentiment analysis of Cantonese forum text data, performing both sentiment classification (positive, negative, neutral) and regression tasks for sentiment intensity (rating) and four emotional dimensions (delight, anger, sorrow, happiness). Built as a multi-task learning (MTL) framework, it leverages advanced NLP techniques to address the unique challenges of Cantonese text in a resource-constrained environment (~5500 labeled samples). A live demo is available via [Hugging Face Space with Gradio](#).
 
 ## Interactive Demo
-The project provides an interactive demo using [Hugging Face Spaces](https://huggingface.co/spaces/) with Gradio, allowing users to input text and receive sentiment predictions.
+The project provides an interactive demo using [Hugging Face Spaces]([https://huggingface.co/spaces/](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis)) with Gradio, allowing users to input text and receive sentiment predictions.
 
 ## Task Difficulty and Data Constraints
 
