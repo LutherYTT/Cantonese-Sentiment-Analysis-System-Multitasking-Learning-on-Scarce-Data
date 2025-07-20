@@ -78,6 +78,8 @@ To ensure high-quality input data for the model, the following meticulous prepro
 
 ### Comparison Results
 
+#### Sentiment
+[Sentiment Comparison](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/evaluation/sentiment_comparison.png)
 
 ## Evaluation Results
 
