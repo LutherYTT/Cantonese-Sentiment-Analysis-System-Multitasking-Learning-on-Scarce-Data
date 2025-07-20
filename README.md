@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project focuses on sentiment analysis of Cantonese forum text data, performing both sentiment classification (positive, negative, neutral) and regression tasks for sentiment intensity (rating) and four emotional dimensions (delight, anger, sorrow, happiness). Built as a multi-task learning (MTL) framework, it leverages advanced NLP techniques to address the unique challenges of Cantonese text in a resource-constrained environment (~5500 labeled samples). A live demo is available via [Hugging Face Space with Gradio]([#](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis)).
+This project focuses on sentiment analysis of Cantonese forum text data, performing both sentiment classification (positive, negative, neutral) and regression tasks for sentiment intensity (rating) and four emotional dimensions (delight, anger, sorrow, happiness). Built as a multi-task learning (MTL) framework, it leverages advanced NLP techniques to address the unique challenges of Cantonese text in a resource-constrained environment (~5500 labeled samples). A live demo is available via [Hugging Face Space with Gradio](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis).
 
 ---
 
 ## Interactive Demo
-The project provides an interactive demo using Hugging Face Spaces with Gradio, allowing users to input text and receive sentiment predictions.
-[![Hugging Face Space](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/logo/hugging_face_logo.png)](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis)
+The project provides an interactive demo using [Hugging Face Spaces with Gradio](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis), allowing users to input text and receive sentiment predictions.
+[![Hugging Face Space](https://github.com/LutherYTT/Cantonese-Sentiment-Analysis-System-Multitasking-Learning-on-Scarce-Data/blob/main/assets/logo/hugging_face_logo.png)](https://huggingface.co/spaces/LutherYTT/Cantonese-Sentiment-Analysis-System-Demo)
 
 ---
 
