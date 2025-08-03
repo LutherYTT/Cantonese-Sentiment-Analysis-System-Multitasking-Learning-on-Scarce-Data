@@ -111,7 +111,7 @@ def custom_data_collator(features):
 class MultiTaskBert(BertPreTrainedModel):
     def __init__(self, config):
         super().__init__(config)
-        self.bert = BertModel.from_pretrained(model_name, config=config)  # 使用BertModel加载预训练权重
+        self.bert = BertModel.from_pretrained(model_name, config=config) 
         self.classifier = nn.Linear(config.hidden_size, 3)
         self.regressor = nn.Linear(config.hidden_size, 5)
 
